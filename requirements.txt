@@ -1,0 +1,8 @@
+tabulate
+requests
+langchain
+langchain_openai
+langchain_groq
+langchain_community
+openai
+pypdf
