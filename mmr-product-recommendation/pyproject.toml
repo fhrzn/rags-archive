@@ -1,0 +1,22 @@
+[project]
+name = "mmr-product-recommendation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb==0.5.23",
+    "gradio>=5.31.0",
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.6",
+    "openai>=1.82.0",
+    "pillow>=11.2.1",
+    "polars>=1.30.0",
+    "qdrant-client>=1.14.2",
+    "scikit-learn>=1.6.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
